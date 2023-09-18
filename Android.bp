@@ -101,6 +101,18 @@ android_app_import {
 }
 
 android_app_import {
+	name: "HomegraphPrebuilt",
+	owner: "google",
+	apk: "proprietary/product/priv-app/HomegraphPrebuilt/HomegraphPrebuilt.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
 	name: "SmartDisplayPrebuilt",
 	owner: "google",
 	apk: "proprietary/product/priv-app/SmartDisplayPrebuilt/SmartDisplayPrebuilt.apk",

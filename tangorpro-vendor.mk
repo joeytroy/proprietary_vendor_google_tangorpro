@@ -58,6 +58,7 @@ PRODUCT_PACKAGES += \
     HardwareInfo \
     HotwordEnrollmentOKGoogleFUSIONPro \
     HotwordEnrollmentXGoogleFUSIONPro \
+    HomegraphPrebuilt \
     SmartDisplayPrebuilt \
     ConnectivityThermalPowerManager \
     DockManagerPrebuilt \
