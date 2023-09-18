@@ -59,6 +59,7 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleFUSIONPro \
     HotwordEnrollmentXGoogleFUSIONPro \
     HomegraphPrebuilt \
+    UsoniaPrebuilt \
     SmartDisplayPrebuilt \
     ConnectivityThermalPowerManager \
     DockManagerPrebuilt \
