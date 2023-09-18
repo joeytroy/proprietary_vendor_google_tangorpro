@@ -20,7 +20,7 @@ android_app_import {
 	name: "CastAuthPrebuilt",
 	owner: "google",
 	apk: "proprietary/product/priv-app/CastAuthPrebuilt/CastAuthPrebuilt.apk",
-	certificate: "platform",
+	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -104,7 +104,7 @@ android_app_import {
 	name: "DockManagerPrebuilt",
 	owner: "google",
 	apk: "proprietary/system_ext/priv-app/DockManagerPrebuilt/DockManagerPrebuilt.apk",
-	certificate: "platform",
+	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -116,7 +116,7 @@ android_app_import {
 	name: "DockSetup",
 	owner: "google",
 	apk: "proprietary/system_ext/priv-app/DockSetup/DockSetup.apk",
-	certificate: "platform",
+	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
