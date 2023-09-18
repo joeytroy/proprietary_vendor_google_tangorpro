@@ -12,6 +12,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/tangorpro/proprietary/product/etc/firmware/music_detector.sound_model:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/music_detector.sound_model \
     vendor/google/tangorpro/proprietary/product/etc/firmware/music_detector.sound_model_2:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/music_detector.sound_model_2 \
     vendor/google/tangorpro/proprietary/product/etc/firmware/music_detector.sound_model_tflite:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/music_detector.sound_model_tflite \
+    vendor/google/tangorpro/proprietary/product/etc/permissions/com.google.android.apps.mediashell.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.apps.mediashell.xml \
     vendor/google/tangorpro/proprietary/product/etc/permissions/com.google.android.apps.nest.castauth.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.apps.nest.castauth.xml \
     vendor/google/tangorpro/proprietary/product/etc/permissions/com.google.android.hardwareinfo.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.hardwareinfo.xml \
     vendor/google/tangorpro/proprietary/product/etc/permissions/com.google.assistant.hubui.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.assistant.hubui.xml \
@@ -50,6 +51,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     PixelCameraServicesT6PRO \
+    AndroidMediaShell \
     CastAuthPrebuilt \
     DeviceIntelligenceNetworkPrebuilt \
     DevicePersonalizationPrebuiltPixelTablet2023 \
